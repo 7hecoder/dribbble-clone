@@ -80,24 +80,25 @@
 
     .content {
         padding-top: 0.8rem;
+        height:40vh;
     }
 
     .content h3 {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
 
     .content h1 {
-        font-size: 1.5rem;
-        line-height: 0.9;
-        margin: 7px 0;
+        font-size: 1.7rem;
+        line-height: 1.1;
+        margin: 10px 0;
     }
 
     .content h4 {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .content button {
-        margin: 0.5rem;
+        margin: 0.8rem;
     }
 
     .hero{
