@@ -32,10 +32,19 @@
     width: 100%;
     height: 11vh;
     padding: 0 3.4vw;
+    position: relative;
+    z-index: 1;
 
   }
 
-  .links{
+  .left {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* .links{
     width: 35%;
     display: flex;
     gap: 2vw;
@@ -44,17 +53,11 @@
     align-items: flex-start;
     justify-content: center;
 
-  }
-
-  .logo{
-    height: 3vw;
-    margin-top: -10px;
-  }
+  } */
 
   .right {
-    width: 35%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -73,6 +76,43 @@
     background-color: transparent;
     color: black;
 }
+
+.links h4:hover,
+.links h4.active {
+    color: black;
+    border-bottom: 3px solid black;
+    cursor: pointer;
+}
+
+#menu-icon {
+  display: block;
+  font-size: 2.1rem;
+}
+
+.links {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 30%;
+  padding: 1rem 2rem;
+  background: rgba(255, 255, 255, 0.6);
+  border-top-right-radius: 1rem;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  display: none;
+}
+
+.links h4 {
+  display: block;
+  font-size: 1rem;
+  margin: 1.2rem 0;
+  color: rgb(37, 35, 35);
+}
+
+.links.active {
+  display: block;
+}
+
 
 .content {
     height:45vh;
@@ -145,7 +185,7 @@
     flex-shrink: 0;
     width: 22vw;
     height: 100%;
-    background-color: yellow;
+    background-color: rgb(0, 0, 0);
     border-radius: 3vw;
     overflow: hidden;
     position: relative;
@@ -343,8 +383,8 @@
   .wrapperContainer{
     width: 20vw;
     height: 100%;
-  border-radius: 20px;
-  overflow: hidden;
+    border-radius: 20px;
+    overflow: hidden;
 
   }
 
