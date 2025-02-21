@@ -61,6 +61,7 @@
 
     .content {
         padding-top: 0.8rem;
+        padding: 0.5rem;
         height:35vh;
     }
 
@@ -78,7 +79,6 @@
 
     .content h4 {
         font-size: 1rem;
-        margin: 0 0.2rem;
     }
 
     .content button {
