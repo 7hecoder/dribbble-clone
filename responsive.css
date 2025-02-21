@@ -22,7 +22,7 @@
     .links {
         display: none;
         width: 40%;
-        padding: 1rem 1.8rem;
+        padding: 1rem 1.7rem;
     }
     .logo{
 
@@ -74,6 +74,7 @@
 
     .content h4 {
         font-size: 1rem;
+        padding: 0.2rem;
     }
 
     .content button {
