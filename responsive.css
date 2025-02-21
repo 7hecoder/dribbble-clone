@@ -12,6 +12,10 @@
 
       }
 
+      #menu-icon {
+        margin-left: 0.5rem;
+      }
+
       .left {
         display: flex;
         gap: 15px;
@@ -22,7 +26,7 @@
     .links {
         display: none;
         width: 40%;
-        padding: 1rem 1.7rem;
+        padding: 1rem 1.5rem;
     }
     .logo{
 
