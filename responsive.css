@@ -54,12 +54,8 @@
     }
 
     .content {
-        height:40vh;
-    }
-
-    .content {
         padding-top: 0.8rem;
-        height:40vh;
+        height:35vh;
     }
 
     .content h3 {
@@ -96,7 +92,7 @@
         width: 70%;
     }
     .scroller{
-        height: 48vh;
+        height: 45vh;
     }
     section h2{
         font-size: 7vw;
