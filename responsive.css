@@ -22,6 +22,7 @@
     .links {
         display: none;
         width: 40%;
+        padding: 1rem 1.8rem;
     }
     .logo{
 
@@ -61,7 +62,7 @@
 
     .content h3 {
         font-size: 0.9rem;
-        padding-top: 0.4rem;
+        margin-top: 0.4rem;
     }
 
     .content h1 {
